@@ -23,8 +23,10 @@ public class Luta {
         }
      public void luta(){
             if (this.aprovada){
+                System.out.println("--------------------------------------------------------");
                 System.out.println("### DESAFIADO ####");
                 this.desafiado.apresentar();
+                System.out.println("--------------------------------------------------------");
                 System.out.println("### DESAFIANTE ####");
                 this.desafiante.apresentar();
              
@@ -44,13 +46,13 @@ public class Luta {
                             this.desafiante.perderLuta();
                             break;
                         case 2: // desafiante vence
-                            System.out.println("----------------------------------------------------------");
+                            System.out.println("--------------------------------------------------------");
                             System.out.println("O " + this.desafiante.getNome() + " GANHOU!" + "\n" + "Quebrando todos o paradigmas") ;
                             this.desafiado.perderLuta();
                             this.desafiante.ganharLuta();
                             break;
                     }
-                    
+                    System.out.println("--------------------------------------------------------");
             }else{
                 System.out.println("A luta não pode acontecer");
             }

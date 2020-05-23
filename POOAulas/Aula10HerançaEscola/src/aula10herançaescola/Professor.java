@@ -10,6 +10,8 @@ package aula10herançaescola;
  * @author berto
  */
 public class Professor extends Pessoa {
+    //herança para diferença
+    
     private String especialidade;
     private float salario;
     

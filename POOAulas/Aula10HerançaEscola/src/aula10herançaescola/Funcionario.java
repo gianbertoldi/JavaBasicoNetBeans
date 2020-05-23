@@ -10,6 +10,7 @@ package aula10herançaescola;
  * @author berto
  */
 public class Funcionario extends Pessoa {
+    //herança para diferença
     
     private String setor;
     private boolean trabalhando;

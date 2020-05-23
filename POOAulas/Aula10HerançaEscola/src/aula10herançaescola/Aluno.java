@@ -10,6 +10,8 @@ package aula10herançaescola;
  * @author berto
  */
 public class Aluno extends Pessoa{
+    //herança para diferença
+    
     private int matricula;
     private String curso;
     

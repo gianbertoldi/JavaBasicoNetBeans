@@ -9,6 +9,15 @@ package aula10herançaescola;
  *
  * @author berto
  */
-public class AlunoBolsista {
+public class AlunoBolsista extends Aluno {
+    private boolean bolsa;
+    
+    public void renovarBolsa(){
+        
+    }
+    
+    public void pagarMensalidade(){
+        
+    }
     
 }

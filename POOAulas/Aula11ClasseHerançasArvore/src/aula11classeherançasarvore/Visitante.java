@@ -3,17 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package aula10herançaescola;
+package aula11classeherançasarvore;
 
 /**
  *
  * @author berto
  */
-public class AlunoTecnico extends Aluno {
-    private String registroProf;
-    
-    public void praticar(){
-        
-    }
+public final class Visitante extends Pessoa {
+    //Classe Herança pobre
     
 }

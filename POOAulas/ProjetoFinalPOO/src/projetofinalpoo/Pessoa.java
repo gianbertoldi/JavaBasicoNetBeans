@@ -3,20 +3,28 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package aula11classeherançasarvore;
+package projetofinalpoo;
 
 /**
  *
  * @author berto
  */
 public abstract class Pessoa {
+    protected String nome;
+    protected int idade;
+    protected String sexo;
+    protected float experiencia;
+
+    public Pessoa(String nome, int idade, String sexo) {
+        this.nome = nome;
+        this.idade = idade;
+        this.sexo = sexo;
+        this.experiencia = 0;
+    }
     
-    private String nome;
-    private int idade;
-    private String sexo;
     
-    public void fazerAniver(){
-        this.idade++;
+    
+    public void ganharExp(){
         
     }
 
@@ -44,8 +52,19 @@ public abstract class Pessoa {
         this.sexo = sexo;
     }
 
+    public float getExperiencia() {
+        return experiencia;
+    }
+
+    public void setExperiencia(float experiencia) {
+        this.experiencia = experiencia;
+    }
+
     @Override
     public String toString() {
-        return "Dados; \n" + "nome = " + nome + "\nidade =" + idade + "\nsexo = " + sexo;
+        return "Pessoa{" + "nome=" + nome + ", idade=" + idade + ", sexo=" + sexo + ", experiencia=" + experiencia + '}';
     }
+    
+    
+    
 }

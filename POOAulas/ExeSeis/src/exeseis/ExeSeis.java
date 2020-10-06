@@ -24,10 +24,12 @@ public class ExeSeis {
         
         System.out.println("Vamor calcular a area de um circulo!");
         System.out.println("Qual o  valor do raio?");
-        r = key.nextDouble();
+        d = key.nextDouble();
+        r = d/2;
         pi = Math.PI;
         a = pi* (Math.pow(r, 2));
-        System.out.println("A area do circulo é: " + a);
+        System.out.printf("A area do circulo é: %.2f ", a);
+        System.out.println(" cm2");
     }
     
 }

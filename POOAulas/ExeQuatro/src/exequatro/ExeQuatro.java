@@ -23,7 +23,7 @@ public class ExeQuatro {
         DecimalFormat df = new DecimalFormat("0.00");
         float x, y, media;
         System.out.println("Infomem a primeira nota:");
-        x = key.nextInt();
+        x = key.nextFloat();
         System.out.println("Informe a segunda nota:");
         y = key.nextInt();
         media = (x + y)/2;
